@@ -57,7 +57,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className={`footer-p lg:mt-[3rem] xs:mt-[50%]`}>
+          <div className={`footer-p lg:mt-[3rem] xs:mt-[100%]`}>
             All Rights Reserved by Ark Tech Solutions Sdn Bhd (Company No.:
             202001014400 (1370720-T))
           </div>

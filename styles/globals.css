@@ -45,7 +45,7 @@ h3 {
 }
 
 .h3-small {
-  @apply text-[1.75rem] font-[500] lg:leading-8 text-black;
+  @apply text-[1.75rem] font-[500] lg:leading-8 text-black xs:text-[1.25rem] xs:leading-7;
 }
 
 p {
@@ -57,7 +57,7 @@ p {
 }
 
 .grey-par {
-  @apply lg:text-[1rem] font-[500] normal-case lg:leading-6 text-gray-600 xs:text-[0.9rem] xs:leading-5;
+  @apply lg:text-[1rem] font-[500] normal-case lg:leading-6 text-gray-600 xs:text-[0.9rem] xs:leading-6;
   color: var(--color);
 }
 
