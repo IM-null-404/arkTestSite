@@ -11,7 +11,7 @@
   --color-foreground: var(--foreground);
   --font-Inter: "Inter", sans-serif;
   --font-mono: var(--font-geist-mono);
-  --breakpoint-xs: 30rem;
+  --breakpoint-xs: 20rem;
 }
 
 @media (prefers-color-scheme: dark) {
