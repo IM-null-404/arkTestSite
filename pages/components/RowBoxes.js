@@ -27,7 +27,7 @@ const RowBoxes = () => {
     <Container>
       {contents.map((content, index) => (
         <div
-          className="md:h-[auto] col-span-1 sm:h-[auto] justify-start w-full border border-gray-200 dark:border-gray-200 pb-[2rem] rounded-lg p-8 sm:flex sm:flex-col sm:gap-y-6 "
+          className="md:h-[auto] col-span-1 justify-start w-full border border-gray-200 dark:border-gray-200 pb-[2rem] rounded-lg p-8 sm:flex sm:h-[auto] sm:flex-col sm:gap-y-6 sm:col-span-1"
           key={index}
         >
           <div>
