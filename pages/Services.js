@@ -59,8 +59,10 @@ function Services() {
       <NavBar />
       <div className="flex flex-col justify-center w-full">
         <ContentFlexCol title="Our Services" titleCss={"h3-small"}>
-          We offer a range of services to help businesses achieve optimal
-          solutions using web3 technology.
+          <p>
+            We offer a range of services to help businesses achieve optimal
+            solutions using web3 technology.
+          </p>
         </ContentFlexCol>
         <GridBoxes gridCss={"grid"} content={contents} />
         <Form />
