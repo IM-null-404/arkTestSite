@@ -50,7 +50,9 @@ function Solutions() {
       <NavBar />
       <div className="flex flex-col justify-center w-full">
         <ContentFlexCol title="NFT Store Solution" titleCss={"h3-small"}>
-          Let us take care of every aspect of your NFT business development.
+          <p>
+            Let us take care of every aspect of your NFT business development.
+          </p>
         </ContentFlexCol>
         <ContentFlexCol
           title="Start Your Journey Here."
@@ -58,14 +60,18 @@ function Solutions() {
         >
           <ul>
             <li>
-              A complete end-to-end solution for merchants and users looking to
-              enter the exciting and rapidly growing world of NFTs. Whether you
-              are a small business owner, a seasoned entrepreneur, or just
-              starting out, we are here to help you every step of the way.
+              <p>
+                A complete end-to-end solution for merchants and users looking
+                to enter the exciting and rapidly growing world of NFTs. Whether
+                you are a small business owner, a seasoned entrepreneur, or just
+                starting out, we are here to help you every step of the way.
+              </p>
             </li>
             <br />
             <li>
-              In recognition of Alibaba Cloud & Octopus Network. We are The{" "}
+              <p>
+                In recognition of Alibaba Cloud & Octopus Network. We are The{" "}
+              </p>
               <a
                 href="https://www.arklabs.tech/blogs/2022-create-alibaba-cloud-global-startup-contest-ark-labs-reaches-semi-final"
                 target="_blank"
@@ -87,7 +93,7 @@ function Solutions() {
                   ></path>
                 </svg>
               </a>{" "}
-              of 2022 Create@ Alibaba Cloud Global Startup Contest
+              <p>of 2022 Create@ Alibaba Cloud Global Startup Contest</p>
             </li>
           </ul>
         </ContentFlexCol>
