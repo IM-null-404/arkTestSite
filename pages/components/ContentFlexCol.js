@@ -18,9 +18,7 @@ function ContentFlexCol({ title, titleCss, children, src }) {
 
         <div className="flex flex-col w-full gap-y-2">
           <h2 className={titleCss}>{title}</h2>
-          <div className="text-[1.2rem] font-[500] leading-8 text-black">
-            {children}
-          </div>
+          <div>{children}</div>
         </div>
       </div>
     </Container>

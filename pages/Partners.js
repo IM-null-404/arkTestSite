@@ -27,7 +27,7 @@ function Partners() {
 
       <div className="flex flex-col justify-center w-full">
         <ContentFlexCol title="Our Partners" titleCss={"h3-small"}>
-          Explore our trusted network in the blockchain industry.
+          <p>Explore our trusted network in the blockchain industry.</p>
         </ContentFlexCol>
         <Divider />
         <ImgGrid title="Blockchain Association" content={group1} />

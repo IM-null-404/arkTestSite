@@ -11,7 +11,7 @@ function Blogs() {
 
       <div className="flex flex-col justify-center w-full">
         <ContentFlexCol title="Our Blogs" titleCss={"h3-small"}>
-          Stay informed about the latest Web3 & blockchain developments.
+          <p>Stay informed about the latest Web3 & blockchain developments.</p>
         </ContentFlexCol>
         <Divider />
 
