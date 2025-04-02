@@ -49,15 +49,15 @@ h3 {
 }
 
 p {
-  @apply lg:text-[1.2rem] font-[500] lg:leading-8 text-black xs:text-[1rem] xs:leading-7;
+  @apply lg:text-[1.2rem] font-[500] lg:leading-8 text-black xs:text-[0.875rem] xs:leading-6;
 }
 
 .footer-p {
-  @apply text-[1rem] font-[500] normal-case leading-6 text-gray-600;
+  @apply text-[1rem] font-[500] normal-case leading-6 text-gray-600 xs:text-[0.8rem] xs:leading-4;
 }
 
 .grey-par {
-  @apply lg:text-[1rem] font-[500] normal-case lg:leading-6 text-gray-600 xs:text-[0.9rem] xs:leading-6;
+  @apply lg:text-[1rem] font-[500] normal-case lg:leading-6 text-gray-600 xs:text-[0.875rem] xs:leading-6;
   color: var(--color);
 }
 
