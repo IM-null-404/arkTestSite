@@ -65,7 +65,7 @@ p {
 }
 
 .gridRowSpan1 {
-  @apply lg:grid grid-flow-col grid-rows-1 sm:flex sm:flex-col gap-6 sm:gap-y-6 sm:justify-items-start justify-items-stretch;
+  @apply lg:grid grid-flow-col grid-rows-1 sm:flex flex-col gap-6 sm:gap-y-6 sm:justify-items-start justify-items-stretch;
 }
 
 .p-green {
