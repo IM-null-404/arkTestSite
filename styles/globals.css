@@ -45,7 +45,7 @@ h3 {
 }
 
 .h3-small {
-  @apply text-[1.75rem] font-[500] lg:leading-8 text-black xs:text-[1.25rem] xs:leading-7;
+  @apply lg:text-[1.75rem] font-[500] lg:leading-8 text-black xs:text-[1.25rem] xs:leading-7;
 }
 
 p {
