@@ -53,7 +53,7 @@ p {
 }
 
 .footer-p {
-  @apply text-[1rem] font-[500] normal-case leading-6 text-gray-600 xs:text-[0.8rem] xs:leading-4;
+  @apply lg:text-[1rem] font-[500] normal-case leading-6 text-gray-600 xs:text-[0.8rem] xs:leading-4;
 }
 
 .grey-par {
