@@ -61,12 +61,11 @@ p {
 }
 
 .grid {
-  @apply max-w-[1300px] lg:grid grid-flow-col grid-rows-3
-  sm:flex sm:flex-col gap-y-6 justify-items-stretch;
+  @apply max-w-[1300px] lg:grid grid-flow-col grid-rows-3 gap-6 justify-items-stretch sm:flex sm:flex-col gap-y-6;
 }
 
 .gridRowSpan1 {
-  @apply lg:grid grid-flow-col grid-rows-1gap-6 sm:gap-y-6  sm:flex sm:flex-col sm:justify-items-start justify-items-stretch;
+  @apply lg:grid grid-flow-col grid-rows-1 gap-6 justify-items-stretch sm:gap-y-6 sm:flex sm:flex-col sm:justify-items-start;
 }
 
 .p-green {
