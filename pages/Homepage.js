@@ -15,7 +15,7 @@ function Homepage() {
         <div>
           <h1 className="global-h1">Leading the</h1>
           <span
-            className="text-[3rem] font-[600] uppercase leading-none"
+            className="lg:text-[3rem] font-[600] uppercase leading-[130%] xs:text-[2.5rem]"
             style={{ "--color": "#00a172" }}
           >
             Pioneer Path in Web3
@@ -29,13 +29,16 @@ function Homepage() {
             blockchain technology."
         />
         <ContentFlexCol title="Our Expertise">
-          In a landscape where businesses seek innovative solutions to meet
-          evolving customer needs, we specialize in guiding enterprises through
-          the intricacies of Web3, ensuring a seamless integration that propels
-          them into the future. Recognizing the significant growth potential
-          within the Asia Pacific market, we offer expert Web3 solutions
-          tailored to the unique dynamics of the region, thereby paving the way
-          for strategic business and brand transformations.
+          <p>
+            In a landscape where businesses seek innovative solutions to meet
+            evolving customer needs, we specialize in guiding enterprises
+            through the intricacies of Web3, ensuring a seamless integration
+            that propels them into the future. Recognizing the significant
+            growth potential within the Asia Pacific market, we offer expert
+            Web3 solutions tailored to the unique dynamics of the region,
+            thereby paving the way for strategic business and brand
+            transformations.
+          </p>
         </ContentFlexCol>
         <RowBoxes />
         <Form />

@@ -14,7 +14,7 @@ function Footer() {
       <Container>
         <div className="flex flex-col justify-left gap-y-2">
           <div className={`gridRowSpan1 h-[28.5vh]`}>
-            <div className="w-[21.7vw] md:w-[auto] sm:w-[auto]">
+            <div className="w-[21.7vw] md:w-[auto] sm:w-[auto] xs:w-[auto]">
               <h3>Leading the Pioneer Path in Web3</h3>
             </div>
             <div className="flex flex-col w-[21.7vw] justify-between gap-[0.5rem]">
@@ -40,7 +40,7 @@ function Footer() {
                 ))}
               </div>
             </div>
-            <div className="flex flex-col w-[21.7vw] md:w-[auto] sm:w-[auto] justify-between">
+            <div className="flex flex-col w-[21.7vw] md:w-[auto] sm:w-[auto] xs:w-[auto] justify-between">
               <div>
                 <p> Company Address</p>
                 <p className="footer-p">
@@ -57,7 +57,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className={`footer-p mt-[3rem]`}>
+          <div className={`footer-p lg:mt-[3rem] xs:mt-[50%]`}>
             All Rights Reserved by Ark Tech Solutions Sdn Bhd (Company No.:
             202001014400 (1370720-T))
           </div>

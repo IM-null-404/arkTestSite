@@ -11,6 +11,7 @@
   --color-foreground: var(--foreground);
   --font-Inter: "Inter", sans-serif;
   --font-mono: var(--font-geist-mono);
+  --breakpoint-xs: 30rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,26 +30,26 @@ body {
 }
 
 h1 {
-  @apply text-[3rem] font-[600] uppercase leading-none text-black;
+  @apply lg:text-[3rem] font-[600] uppercase leading-2 text-black xs:text-[2.5rem] xs:leading-7;
 }
 
 h2 {
-  @apply text-[2rem] font-[500] leading-10 text-black;
+  @apply lg:text-[2rem] font-[500] lg:leading-10 text-black xs:text-[1.75rem] xs:leading-7;
   color: var(--color);
   font-weight: var(--font-weight);
 }
 
 h3 {
-  @apply text-[1.75rem] font-[500] leading-8 text-black;
+  @apply lg:text-[1.75rem] font-[500] lg:leading-8 text-black  xs:text-[1.5rem] xs:leading-7;
   color: var(--color);
 }
 
 .h3-small {
-  @apply text-[1.75rem] font-[500] leading-8 text-black;
+  @apply text-[1.75rem] font-[500] lg:leading-8 text-black;
 }
 
 p {
-  @apply text-[1.2rem] font-[500] leading-8 text-black;
+  @apply lg:text-[1.2rem] font-[500] lg:leading-8 text-black xs:text-[1rem] xs:leading-7;
 }
 
 .footer-p {
@@ -56,16 +57,16 @@ p {
 }
 
 .grey-par {
-  @apply text-[1rem] font-[500] normal-case leading-6 text-gray-600;
+  @apply lg:text-[1rem] font-[500] normal-case lg:leading-6 text-gray-600 xs:text-[0.9rem] xs:leading-5;
   color: var(--color);
 }
 
 .grid {
-  @apply max-w-[1300px] lg:grid grid-flow-col grid-rows-3 gap-6 justify-items-stretch sm:flex sm:flex-col gap-y-6;
+  @apply max-w-[1300px] lg:grid grid-flow-col grid-rows-3 gap-6 justify-items-stretch sm:flex sm:flex-col sm:gap-y-6 xs:flex xs:flex-col xs:gap-y-6;
 }
 
 .gridRowSpan1 {
-  @apply lg:grid grid-flow-col grid-rows-1 gap-6 justify-items-stretch sm:gap-y-6 sm:flex sm:flex-col sm:justify-items-start;
+  @apply lg:grid grid-flow-col grid-rows-1 gap-6 justify-items-stretch sm:gap-y-6 sm:flex sm:flex-col sm:justify-items-start xs:flex xs:flex-col xs:gap-y-6;
 }
 
 .p-green {
