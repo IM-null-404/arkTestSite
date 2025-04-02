@@ -1,0 +1,77 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Do+Hyeon&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Text+Me+One&display=swap");
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-Inter: "Inter", sans-serif;
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #ededed;
+    --color: black;
+    --font-weight: 500;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  @apply text-[3rem] font-[600] uppercase leading-none text-black;
+}
+
+h2 {
+  @apply text-[2rem] font-[500] leading-10 text-black;
+  color: var(--color);
+  font-weight: var(--font-weight);
+}
+
+h3 {
+  @apply text-[1.75rem] font-[500] leading-8 text-black;
+  color: var(--color);
+}
+
+.h3-small {
+  @apply text-[1.75rem] font-[500] leading-8 text-black;
+}
+
+p {
+  @apply text-[1.2rem] font-[500] leading-8 text-black;
+}
+
+.footer-p {
+  @apply text-[1rem] font-[500] normal-case leading-6 text-gray-600;
+}
+
+.grey-par {
+  @apply text-[1rem] font-[500] normal-case leading-6 text-gray-600;
+  color: var(--color);
+}
+
+.grid {
+  @apply max-w-[1300px] lg:grid grid-flow-col grid-rows-3 sm:flex sm:flex-col gap-6 justify-items-stretch;
+}
+
+.gridRowSpan1 {
+  @apply lg:grid grid-flow-col grid-rows-1 sm:flex sm:flex-col gap-6 sm:gap-y-6 sm:justify-items-start justify-items-stretch;
+}
+
+.p-green {
+  @apply text-[1.5rem] font-[500] leading-8 text-[#00a172];
+}
+
+span {
+  color: var(--color);
+}
