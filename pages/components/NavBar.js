@@ -34,8 +34,11 @@ function NavBar() {
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           {menuItem.map((item, index) => (
-            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700">
-              <li className="mr-3 ml-3" key={index}>
+            <ul
+              className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700"
+              key={index}
+            >
+              <li className="mr-3 ml-3">
                 <a href={item} className={navDefault}>
                   {item}
                 </a>
