@@ -20,7 +20,7 @@ function NavBar() {
       h-[4rem]
       w-[100vw]"
     >
-      <div className="mr-auto ml-auto max-w-screen-xl flex flex-wrap items-center justify-between h-full w-[65vw] lg:pt-[4px] xs:w-[85vw] xs:items-start xs:pt-[1rem]">
+      <div className="mr-auto ml-auto max-w-screen-xl flex flex-wrap items-center justify-between h-full w-[65vw] lg:pt-[1rem] xs:w-[85vw] xs:items-start xs:pt-[1rem]">
         <a
           href="Homepage"
           class="flex items-center space-x-3 rtl:space-x-reverse"
