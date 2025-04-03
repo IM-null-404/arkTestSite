@@ -7,7 +7,7 @@ import Form from "./components/Form";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 
-function Homepage() {
+function Home() {
   return (
     <Container marginTop="8rem" marginBottom="5rem">
       <NavBar />
@@ -48,4 +48,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Home;

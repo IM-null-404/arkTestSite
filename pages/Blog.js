@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import ContentFlexCol from "./components/ContentFlexCol";
 import Divider from "./components/Divider";
 
-function Blogs() {
+function Blog() {
   return (
     <Container marginBottom="5rem">
       <NavBar />
@@ -21,4 +21,4 @@ function Blogs() {
   );
 }
 
-export default Blogs;
+export default Blog;
