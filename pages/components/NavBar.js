@@ -1,7 +1,3 @@
-import { useState } from "react";
-import { NavLink } from "react-router-dom";
-// import { Menu, X } from "lucide-react"; // Icons for menu
-
 let navCurrent =
   "font-[500] tracking-[.025em] block py-2 px-2 text-white bg-[#00a172] rounded-sm md:bg-transparent md:text-[#00a172] md:p-0 md:dark:text-[#00a172]";
 
